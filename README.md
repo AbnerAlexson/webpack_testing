@@ -1,2 +1,2 @@
-# Webpack
-This is just me learning how to use webpack
+# Webpack-Test-App
+This project is for me to learn how to use webpack.
