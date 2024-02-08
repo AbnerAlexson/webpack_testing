@@ -15,6 +15,17 @@ module.exports = {
                  "css-loader", // 2. turn css into javascript code
                  "sass-loader" // 1. turn sass into css
                 ]
+            },
+            {
+                test: /\.html$/,
+                use: ["html-loader"]
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg)$/i,
+                type: "asset/resource",
+                generator: {
+                    filename: 'assets/[name][hash][ext]'
+                }
             }
         ]
     },
