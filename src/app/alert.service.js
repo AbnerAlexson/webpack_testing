@@ -1,5 +1,6 @@
 // there is no way im admitting to understand these line... fml
-class AlertService {
+import { inputsAreValid } from "./utils/inputs-are-valid";
+export class AlertService {
     constructor() {
         this.errorBox = document.getElementById("error");
     }
